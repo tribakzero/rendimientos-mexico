@@ -23,6 +23,7 @@ export default function Home() {
       'kubofinanciero',
       'smartcash',
       'supertasas',
+      'nu',
     ]
 
     products.forEach(product => fetch(`/api/${product}`)
